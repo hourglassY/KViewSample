@@ -7,7 +7,9 @@ import android.graphics.Paint
 import android.graphics.Rect
 import android.util.AttributeSet
 
-
+/**
+ * 绘制右侧Y轴文字
+ * */
 class KRightTextView @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null

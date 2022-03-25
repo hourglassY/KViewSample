@@ -6,6 +6,9 @@ import android.graphics.Color
 import android.graphics.Paint
 import android.util.AttributeSet
 
+/**
+ * 绘制蜡烛图
+ * */
 class KCandleView @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null

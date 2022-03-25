@@ -2,6 +2,7 @@ package com.example.k_view
 
 
 data class KCandleBean(val data: MutableList<KCandleItemBean> = mutableListOf())
+
 data class KCandleItemBean(
     //如果是1s走势图，开盘价、收盘价、最高价、最低价需相同
     var openPrice: Float = 0f,//开盘价

@@ -5,7 +5,9 @@ import android.graphics.*
 import android.util.AttributeSet
 import kotlin.math.min
 
-
+/**
+ * 绘制折线图网格线
+ * */
 abstract class KCandleGridLineDrawView @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null
@@ -194,16 +196,6 @@ abstract class KCandleGridLineDrawView @JvmOverloads constructor(
 
             mLineBottomHeight = min(mLineBottomHeight, mDrawHeight / mGridLineHorCount)
             mLineTopHeight = min(mLineTopHeight, mDrawHeight / mGridLineHorCount)
-//        mLineTopHeight = if (mMaxValue - mMaxValueInt > 0) {
-//            dp2px(40f)
-//        } else {
-//            dp2px(20f)
-//        }
-//        mLineBottomHeight = if (mMinValueInt - mMinValue > 0) {
-//            dp2px(40f)
-//        } else {
-//            dp2px(20f)
-//        }
             mLinChartHeight = mDrawHeight - mLineTopHeight - mLineBottomHeight
 
         }

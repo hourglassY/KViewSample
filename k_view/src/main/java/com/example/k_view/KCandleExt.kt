@@ -2,6 +2,9 @@ package com.example.k_view
 
 import kotlin.math.roundToInt
 
+/**
+ * 最高、最低价计算辅助类
+ * */
 fun MutableList<KCandleItemBean>.getMaxAndMinValueV5(
     action: (
         maxValue: Float, maxValueInt: Int,

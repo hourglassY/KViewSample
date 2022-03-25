@@ -4,6 +4,9 @@ import android.content.Context
 import android.graphics.*
 import android.util.AttributeSet
 
+/**
+ * 绘制折线图
+ * */
 class KLinChartView @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null
