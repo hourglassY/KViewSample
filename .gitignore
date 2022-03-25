@@ -1,6 +1,7 @@
 *.iml
 .gradle
 .idea
+k_view_practice
 /local.properties
 .DS_Store
 /build
